@@ -316,7 +316,7 @@
               <div>
                 <span class="inline-flex rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.2em] text-accent">Nova ordem</span>
                 <h2 class="mt-4 text-4xl font-black tracking-tight text-white md:text-5xl">Introdução ao Python Flask com menu sequencial</h2>
-                <p class="mt-4 max-w-3xl text-base leading-8 text-slate-300">O menu antigo virou uma trilha de leitura: primeiro contexto, depois fundamentos, depois estrutura e, por fim, o fluxo completo. A página agora conversa com a referência, em vez de parecer um rascunho.</p>
+                <p class="mt-4 max-w-3xl text-base leading-8 text-slate-300">Uma trilha de leitura: primeiro contexto, depois fundamentos, depois estrutura e, por fim, o fluxo completo. A página agora conversa com a referência, em vez de vídeos longos.</p>
               </div>
               <div class="mx-auto w-full max-w-[19rem] rounded-3xl border border-accent/15 bg-base/70 p-6 lg:mx-0 lg:justify-self-end">
                 <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-accent">Resumo</p>
@@ -324,15 +324,15 @@
                 <div class="mt-4 space-y-3">
                   <div class="flex items-end justify-between gap-4 rounded-2xl border border-border bg-card/70 p-4">
                     <div>
-                      <p class="text-xs uppercase tracking-[0.18em] text-muted">Grupos</p>
-                      <p class="mt-1 text-sm leading-6 text-slate-300">Blocos principais do menu</p>
+                      <p class="text-xs uppercase tracking-[0.18em] text-muted">Diretórios</p>
+                      <p class="mt-1 text-sm leading-6 text-slate-300">Pastas para arquivos</p>
                     </div>
                     <p class="text-3xl font-black text-white">3</p>
                   </div>
                   <div class="flex items-end justify-between gap-4 rounded-2xl border border-border bg-card/70 p-4">
                     <div>
-                      <p class="text-xs uppercase tracking-[0.18em] text-muted">Etapas</p>
-                      <p class="mt-1 text-sm leading-6 text-slate-300">Passos da trilha atual</p>
+                      <p class="text-xs uppercase tracking-[0.18em] text-muted">Passos</p>
+                      <p class="mt-1 text-sm leading-6 text-slate-300">Arquivos com código</p>
                     </div>
                     <p class="text-3xl font-black text-white">6</p>
                   </div>
@@ -342,9 +342,9 @@
           </div>
 
           <div class="grid gap-6 md:grid-cols-3">
-            <div class="rounded-2xl border border-border bg-card/70 p-6"><h3 class="text-lg font-semibold text-white">Mesmo formato</h3><p class="mt-3 text-sm leading-7 text-muted">Sidebar com grupos expansivos e etapas curtas, igual ao guia principal.</p></div>
-            <div class="rounded-2xl border border-border bg-card/70 p-6"><h3 class="text-lg font-semibold text-white">Mais didático</h3><p class="mt-3 text-sm leading-7 text-muted">Antes do código, a pessoa entende de onde o Flask veio e o que um framework resolve.</p></div>
-            <div class="rounded-2xl border border-border bg-card/70 p-6"><h3 class="text-lg font-semibold text-white">Leitura em ordem</h3><p class="mt-3 text-sm leading-7 text-muted">Cada item do menu representa um passo real de aprendizagem.</p></div>
+            <div class="rounded-2xl border border-border bg-card/70 p-6"><h3 class="text-lg font-semibold text-white">Mesmo formato</h3><p class="mt-3 text-sm leading-7 text-muted">🎯 Flask: o framework mais utilizado e querido pelos desenvolvedores Python.</p></div>
+            <div class="rounded-2xl border border-border bg-card/70 p-6"><h3 class="text-lg font-semibold text-white">Mais didático</h3><p class="mt-3 text-sm leading-7 text-muted">🚀Antes do código, a pessoa entende de onde o Flask veio e o que um framework resolve.</p></div>
+            <div class="rounded-2xl border border-border bg-card/70 p-6"><h3 class="text-lg font-semibold text-white">Leitura em ordem</h3><p class="mt-3 text-sm leading-7 text-muted">⚡ Cada item do menu representa um passo real de aprendizagem.</p></div>
           </div>
         </section>
 
@@ -378,10 +378,8 @@
                     <p class="flex items-start gap-3"><span class="text-lg leading-none">🌍</span><span><strong class="text-white">Contexto de origem:</strong> ele se consolidou no ecossistema Pocoo, ligado ao trabalho de Armin Ronacher na Áustria, com Viena como referência pública mais fácil de localizar.</span></p>
                   </div>
                 </div>
-                <button type="button" class="info-trigger mt-4 inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-accent/25 bg-accent/10 px-4 py-3 text-sm font-extrabold text-accent" data-info-title="Por que isso importa" data-info-body="Essa origem explica o estilo do Flask: ele foi pensado para ser pequeno, legível e didático. Por isso ele funciona tão bem como porta de entrada para web em Python.">
-                  <i data-lucide="sparkles" class="h-4 w-4"></i>
-                  Por que isso importa
-                </button>
+             
+                
               </div>
             </div>
           </div>
@@ -445,6 +443,59 @@
                     <p class="flex items-start gap-3"><span class="text-lg leading-none">📤</span><span><strong class="text-white">Entrega:</strong> ele empacota a resposta e devolve HTML, JSON ou outro retorno de forma padronizada.</span></p>
                   </div>
                 </div>
+                <details class="bg-card border border-border rounded-xl shadow-lg mb-8 group overflow-hidden cursor-pointer open:bg-card/80 transition-colors">
+    
+    <summary class="flex items-center justify-between p-6 list-none hover:bg-white/5 transition-colors focus:outline-none">
+        <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400 border border-emerald-500/30 shadow-[0_0_15px_rgba(16,185,129,0.15)]">
+                <i data-lucide="zap" class="w-6 h-6"></i>
+            </div>
+            <div>
+                <h3 class="text-xl md:text-2xl font-bold text-white">O que é o Flask?</h3>
+                <p class="text-xs font-mono text-emerald-400 mt-1">A Filosofia do Microframework</p>
+            </div>
+        </div>
+        
+        <div class="w-8 h-8 rounded-full bg-base flex items-center justify-center border border-border group-open:rotate-180 transition-transform duration-300">
+            <i data-lucide="chevron-down" class="w-4 h-4 text-muted"></i>
+        </div>
+    </summary>
+
+    <div class="px-6 pb-6 pt-4 border-t border-border/50 bg-base/30 cursor-default">
+        <p class="text-muted leading-relaxed mb-6 max-w-3xl">
+            O Flask é um <strong>Microframework</strong> para Python. O termo "micro" não significa que ele é fraco ou apenas para projetos pequenos. Significa que ele não toma decisões por você. Enquanto frameworks maiores (como o Django) te obrigam a usar o banco de dados e a estrutura de pastas deles, o Flask te entrega apenas o núcleo essencial para a web funcionar e sai do seu caminho.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-4">
+            <div class="bg-card border border-border rounded-lg p-4 hover:border-emerald-500/50 transition-colors">
+                <div class="flex items-center gap-2 mb-2 text-white font-semibold">
+                    <i data-lucide="box" class="w-4 h-4 text-emerald-400"></i> O Núcleo (Core)
+                </div>
+                <p class="text-xs text-muted">
+                    O Flask puro traz apenas o roteamento de URLs (Werkzeug) e a renderização de telas HTML (Jinja2). Você sobe um servidor muito rápido.
+                </p>
+            </div>
+
+            <div class="bg-card border border-border rounded-lg p-4 hover:border-emerald-500/50 transition-colors">
+                <div class="flex items-center gap-2 mb-2 text-white font-semibold">
+                    <i data-lucide="blocks" class="w-4 h-4 text-emerald-400"></i> Extensível (Lego)
+                </div>
+                <p class="text-xs text-muted">
+                    Precisa de Banco de Dados? Instale uma extensão. Autenticação JWT? Instale outra. Você monta a sua API como peças de Lego.
+                </p>
+            </div>
+
+            <div class="bg-card border border-border rounded-lg p-4 hover:border-emerald-500/50 transition-colors">
+                <div class="flex items-center gap-2 mb-2 text-white font-semibold">
+                    <i data-lucide="scale" class="w-4 h-4 text-emerald-400"></i> Flexibilidade Absoluta
+                </div>
+                <p class="text-xs text-muted">
+                    Você dita as regras. É você quem decide como organizar os diretórios, onde colocar as regras de negócio e qual arquitetura usar.
+                </p>
+            </div>
+        </div>
+    </div>
+</details>
               </div>
               <div class="rounded-2xl border border-border bg-base/55 p-5">
                 <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-accent">Ligação mental rápida</p>
