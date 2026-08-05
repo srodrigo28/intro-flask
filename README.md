@@ -2,6 +2,8 @@
 
 Uma página didática, responsiva e interativa para apresentar os primeiros conceitos do **Python Flask** em uma trilha de leitura sequencial.
 
+## Novo
+
 O projeto foi criado como uma experiência visual em HTML, CSS e JavaScript, com menu lateral, seções organizadas, exemplos de código, modais explicativos e botões para copiar trechos rapidamente.
 
 ## ✨ Visão geral
